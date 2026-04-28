@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/Krithi110/ven.git',
+                    url: 'https://github.com/Krithi110/classes.git',
                     credentialsId: 'github-token'
             }
         }
